@@ -74,8 +74,7 @@ namespace ExtraRoles.Roles {
 
 		protected CooldownController CreateCooldown(string OptionName = "cooldown",
 			float Value = 30f, float Min = 5f, float Max = 60f, float Increment = 2.5f) {
-			return new CooldownController(CustomOption.AddNumber(
-				$"{Prefix}.{OptionName}", Value, Min, Max, Increment));
+			return CooldownController.FromOption(Prefix, OptionName, Value, Min, Max, Increment);
 		}
 		
 		protected void CreateDefaultCooldown() {

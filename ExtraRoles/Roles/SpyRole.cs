@@ -30,10 +30,9 @@ namespace ExtraRoles.Roles {
 		// ed05af
 		private SpyRole() : base("spy",
 			new Color(237f / 255f, 5f / 255f, 175f / 255f, 1)) {
-			InvisibleCooldown = new CooldownController(Prefix, "invisible.cooldown");
-			InvisibleEffect = new CooldownController(Prefix, "invisible.effect",
-				10f, 5f, 60f, 2.5f);
-			DisguiseCooldown = new CooldownController(Prefix, "disguise.cooldown");
+			InvisibleCooldown = CreateCooldown("invisible.cooldown");
+			InvisibleEffect = CreateCooldown("invisible.effect", 10f);
+			DisguiseCooldown = CreateCooldown("disguise.cooldown");
 			
 			_ResetOnMeeting = MakeToggle("disguise.reset_on_meeting", true);
 		}

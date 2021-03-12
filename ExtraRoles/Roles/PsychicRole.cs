@@ -23,8 +23,7 @@ namespace ExtraRoles.Roles {
 		private PsychicRole() : base("psychic",
 			new Color(106 / 255f, 13f / 255f, 173f / 255f, 1)) {
 			CreateDefaultCooldown();
-			EffectCooldown = new CooldownController(Prefix, "effect",
-				10f, 5f, 60f, 2.5f);
+			EffectCooldown = CreateCooldown("effect", 10f);
 		}
 
 		protected override void ResetRuntime() {

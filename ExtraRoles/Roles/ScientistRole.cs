@@ -33,13 +33,12 @@ namespace ExtraRoles.Roles {
 		// e67300
 		private ScientistRole() : base("scientist",
 			new Color(230f / 255f, 115f / 255f, 0f / 255f, 1)) {
-			TimeWarpCooldown = new CooldownController(Prefix, "timewarp.cooldown");
-			TimeWarpEffect = new CooldownController(Prefix, "timewarp.effect",
-				10f, 5f, 60f, 2.5f);
+			TimeWarpCooldown = CreateCooldown("timewarp.cooldown");
+			TimeWarpEffect = CreateCooldown("timewarp.effect", 10f);
 			_TimeWarpSpeed = MakeNumber("timewarp.speed", 0.75f,
 				0.25f, 10.0f, 0.25f);
 			_TimeWarpSelf = MakeToggle("timewarp.self", true);
-			TasksCooldown = new CooldownController(Prefix, "tasks.cooldown");
+			TasksCooldown = CreateCooldown("tasks.cooldown");
 		}
 
 		protected override void ResetRuntime() {

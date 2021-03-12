@@ -25,10 +25,9 @@ namespace ExtraRoles.Roles {
 		// ecf005
 		private MageRole() : base("mage",
 			new Color(236f / 255f, 240f / 255f, 5f / 255f, 1)) {
-			StoneficationCooldown = new CooldownController(Prefix, "stonefication.cooldown");
-			StoneficationEffect = new CooldownController(Prefix, "stonefication.effect",
-				30f, 5f);
-			TranspositionCooldown = new CooldownController(Prefix, "transposition.cooldown");
+			StoneficationCooldown = CreateCooldown("stonefication.cooldown");
+			StoneficationEffect = CreateCooldown("stonefication.effect");
+			TranspositionCooldown = CreateCooldown("transposition.cooldown");
 		}
 
 		protected override void ResetRuntime() {
