@@ -1,0 +1,99 @@
+er.exile.confirm=Раскрытие новых ролей
+er.role.show=Отображение новых ролей
+er.role.enable=Включить %c%w
+er.role.title=-=%c%n%r=-
+
+er.medic.shielded.show=Показывать защищаемого игрока
+er.medic.shielded.indicator=Индикатор попыток убийства для защищаемого
+er.medic.report.name.time=Время до исчезновения имени убийцы в отчёте (сек)
+er.medic.report.color.time=Время до исчезновения типа цвета в отчёте (сек)
+er.medic.report.show=Показывать информацию о репорте
+
+er.officer.cooldown=Перезарядка убийства
+er.officer.can_kill_joker=Может убивать Джокера
+er.officer.can_kill_zombie=Может убивать Зомби
+
+er.psychic.cooldown=Перезарядка способности
+er.psychic.effect=Время действия способности
+
+er.scientist.timewarp.cooldown=Перезарядка временной аномалии
+er.scientist.timewarp.effect=Время действия временной аномалии
+er.scientist.timewarp.speed=Скорость игроков во временной аномалии
+er.scientist.timewarp.self=Временная аномалия действует на самого Учёного
+er.scientist.tasks.cooldown=Перезарядка автозадач
+
+er.spy.invisible.cooldown=Перезарядка невидимости
+er.spy.invisible.effect=Время действия невидимости
+er.spy.disguise.cooldown=Перезарядка маскировки
+er.spy.disguise.reset_on_meeting=Снимать маскировку перед совещаниями
+
+er.zombie.cooldown=Перезарядка инфекции
+er.zombie.impostor_can_see_alpha=Предатели могут видеть Альфа-Зомби
+
+er.mage.stonefication.cooldown=Перезарядка превращения в камень
+er.mage.stonefication.effect=Время действия превращения в камень
+er.mage.transposition.cooldown=Перезарядка транспозиции
+
+er.cleaner.cooldown=Перезарядка очистки тел
+
+er.darker=тёмного
+er.lighter=светлого
+
+er.medic.report.old=Репорт тела: Невозможно извлечь информацию, тело слишком старое. (Убит %t сек назад)
+er.medic.report.officer=Репорт тела (Офицер): Это самоубийство офицера об мирного! (Убит %t сек назад)
+er.medic.report.zombie=Репорт тела (Зомби): Это жертва цепной реакции убийства альфа-зомби! (Убит %t сек назад)
+er.medic.report.name=Репорт тела: Убийцу зовут %n! (Убит %t сек назад)
+er.medic.report.color=Репорт тела: Убийца %c цвета. (Убит %t сек назад)
+
+er.medic=Медик
+er.medic.whom=Медика
+er.medic.desc=Создайте щит и защитите [8DFFFF]Члена экипажа
+er.medic.exile= (но был Медиком)
+
+er.officer=Офицер
+er.officer.whom=Офицера
+er.officer.desc=Убейте [FF0000FF]Предателя
+er.officer.exile= (но был Офицером)
+
+er.engineer=Инженер
+er.engineer.whom=Инженера
+er.engineer.desc=Поддерживайте важные системы корабля
+er.engineer.exile= (но был Инженером)
+
+er.joker=Джокер
+er.joker.whom=Джокера
+er.joker.desc=Заставьте других выкинуть вас для победы
+er.joker.exile= (но был Джокером)
+er.joker.win=Победа Джокера
+er.joker.tasks=Имитируйте поведение [FF0000FF]предателя
+
+er.psychic=Экстрасенс
+er.psychic.whom=Экстрасенса
+er.psychic.desc=Говорите с погибшими [8DFFFF]Членами экипажа
+er.psychic.exile= (но был Экстрасенсом)
+
+er.zombie=Зомби
+er.zombie.whom=Зомби
+er.zombie.desc=Зомбируйте [FF0000FF]всех
+er.zombie.exile= (но был Зомби)
+er.zombie.win=Победа Зомби
+er.zombie.tasks=Зомбируйте [FF0000FF]всех
+
+er.scientist=Учёный
+er.scientist.whom=Учёного
+er.scientist.desc=Манипулируйте временем и помогите [8DFFFF]Членам экипажа
+er.scientist.exile= (но был Учёным)
+
+er.spy=Шпион
+er.spy.whom=Шпиона
+er.spy.desc=Вычислите [FF0000FF]предателя [FFFFFFFF]благодаря маскировке
+er.spy.exile= (но был Шпионом)
+
+er.mage=Маг
+er.mage.whom=Мага
+er.mage.desc=Помешайте [FF0000FF]предателю [FFFFFFFF]магическими силами
+er.mage.exile= (но был Магом)
+
+er.cleaner=Чистый Предатель
+er.cleaner.whom=Чистого Предателя
+er.cleaner.desc=Убейте [FF0000FF]всех [FFFFFFFF]и скройте их тела

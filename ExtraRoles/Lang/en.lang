@@ -1,0 +1,99 @@
+er.exile.confirm=Extra Roles Confirmation
+er.role.show=Show Extra Roles
+er.role.enable=Enable %c%w
+er.role.title=-=%c%n%r=-
+
+er.medic.shielded.show=Show Shielded Player
+er.medic.shielded.indicator=Murder Attempt Indicator for Shielded Player
+er.medic.report.name.time=Time Where Reports Will Have Name (sec)
+er.medic.report.color.time=Time Where Reports Will Have Color Type (sec)
+er.medic.report.show=Show Reports
+
+er.officer.cooldown=Kill Cooldown
+er.officer.can_kill_joker=Can Kill Joker
+er.officer.can_kill_zombie=Can Kill Zombie
+
+er.psychic.cooldown=Effect Cooldown
+er.psychic.effect=Effect Duration
+
+er.scientist.timewarp.cooldown=TimeWarp Cooldown
+er.scientist.timewarp.effect=TimeWarp Duration
+er.scientist.timewarp.speed=TimeWarp Players Speed
+er.scientist.timewarp.self=TimeWarp Affects Himself
+er.scientist.tasks.cooldown=AutoTasks Cooldown
+
+er.spy.invisible.cooldown=Invisibility Cooldown
+er.spy.invisible.effect=Invisibility Duration
+er.spy.disguise.cooldown=Disguise Cooldown
+er.spy.disguise.reset_on_meeting=Reset Disguiese Before Meetings
+
+er.zombie.cooldown=Infect Cooldown
+er.zombie.impostor_can_see_alpha=Impostors Can See Alpha Zombie
+
+er.mage.stonefication.cooldown=Stonefication Cooldown
+er.mage.stonefication.effect=Stonefication Duration
+er.mage.transposition.cooldown=Transposition Cooldown
+
+er.cleaner.cooldown=Clean Cooldown
+
+er.darker=darker
+er.lighter=lighter
+
+er.medic.report.old=Body Report: The corpse is too old to gain information from. (Killed %ts ago)
+er.medic.report.officer=Body Report (Officer): The cause of death appears to be suicide! (Killed %ts ago)
+er.medic.report.zombie=Body Report (Zombie): The cause of death appears to be chain kill after alpha Zombie death (Killed %ts ago)
+er.medic.report.name=Body Report: The killer appears to be %n! (Killed %ts ago)
+er.medic.report.color=Body Report: The killer appears to be a %c color. (Killed %ts ago)
+
+er.medic=Medic
+er.medic.whom=Medic
+er.medic.desc=Create a shield to protect a [8DFFFF]Crewmate
+er.medic.exile= (but was a Medic)
+
+er.officer=Officer
+er.officer.whom=Officer
+er.officer.desc=Shoot the [FF0000FF]Impostor
+er.officer.exile= (but was an Officer)
+
+er.engineer=Engineer
+er.engineer.whom=Engineer
+er.engineer.desc=Maintain important systems on the ship
+er.engineer.exile= (but was an Engineer)
+
+er.joker=Joker
+er.joker.whom=Joker
+er.joker.desc=Get voted off of the ship to win
+er.joker.exile= (but was a Joker)
+er.joker.win=Joker's win
+er.joker.tasks=Imitate the behavior of an [FF0000FF]Impostor
+
+er.psychic=Psychic
+er.psychic.whom=Psychic
+er.psychic.desc=Talk to the lost [8DFFFF]Crewmates
+er.psychic.exile= (but was a Psychic)
+
+er.zombie=Zombie
+er.zombie.whom=Zombie
+er.zombie.desc=Zombie [FF0000FF]all
+er.zombie.exile= (but was a Zombie)
+er.zombie.win=Zombie's win
+er.zombie.tasks=Zombie [FF0000FF]all
+
+er.scientist=Scientist
+er.scientist.whom=Scientist
+er.scientist.desc=Manipulate time and help [8DFFFF]Crewmates
+er.scientist.exile= (but was a Scientist)
+
+er.spy=Spy
+er.spy.whom=Spy
+er.spy.desc=Detect [FF0000FF]impostor [FFFFFFFF]by invisibility
+er.spy.exile= (but was a Spy)
+
+er.mage=Mage
+er.mage.whom=Mage
+er.mage.desc=Intercept [FF0000FF]impostor [FFFFFFFF]by magic power
+er.mage.exile= (но был Магом)
+
+er.cleaner=Clean Impostor
+er.cleaner.whom=Clean Impostor
+er.cleaner.desc=Kill [FF0000FF]all [FFFFFFFF]and clean them bodies
